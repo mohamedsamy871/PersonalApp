@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PersonalApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/lib/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+    @*<link rel="stylesheet" href="~/Admin/css/bootstrap.css" type="text/css" />*@
+    <link rel="stylesheet" href="~/Admin/style.css" type="text/css" />
+    <link rel="stylesheet" href="~/Admin/css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="~/Admin/css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="~/Admin/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="~/Admin/css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="~/Admin/css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="stretched">
+
+    @RenderBody()
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/lib/font-awesome/js/all.js"></script>
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- External JavaScripts
+    ============================================= -->
+    <script src="~/Admin/js/plugins.js"></script>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script src="~/Admin/js/functions.js"></script>
+    <script src="~/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
